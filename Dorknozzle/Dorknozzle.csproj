@@ -60,6 +60,7 @@
     <Content Include="Dorknozzle.css" />
     <Content Include="Dorknozzle.Master" />
     <Content Include="Home.aspx" />
+    <Content Include="HelpDesk.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,6 +79,7 @@
   <ItemGroup>
     <Compile Include="Dorknozzle.Master.cs">
       <DependentUpon>Dorknozzle.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Dorknozzle.Master.designer.cs">
       <DependentUpon>Dorknozzle.Master</DependentUpon>
@@ -92,6 +94,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HelpDesk.aspx.cs">
+      <DependentUpon>HelpDesk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HelpDesk.aspx.designer.cs">
+      <DependentUpon>HelpDesk.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
