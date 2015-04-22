@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dorknozzle.css" />
     <Content Include="Dorknozzle.Master" />
     <Content Include="Home.aspx" />
     <None Include="Web.Debug.config">
@@ -65,6 +66,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Images\book_closed.gif" />
+    <Content Include="Images\header.gif" />
+    <Content Include="Images\header_bg.gif" />
     <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
